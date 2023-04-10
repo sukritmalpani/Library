@@ -1,0 +1,108 @@
+body {
+  background-color: #efe9e9;
+  font-family: monospace;
+}
+form {
+  background-color: rgb(118, 148, 239);
+  margin: auto;
+  width: 500px;
+  box-shadow: 0px 2px 10px 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  gap: 10px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+label {
+  font-size: larger;
+  margin-right: auto;
+  align-self: center;
+  font-weight: 700;
+}
+#author,
+#title,
+#pages {
+  width: 300px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+input[type="checkbox"] {
+  scale: 2;
+  margin-right: auto;
+}
+#submit {
+  width: 400px;
+  margin: auto;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+#submit:active {
+  background-color: grey;
+  scale: 0.9;
+}
+#book-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+  margin: auto;
+}
+.book {
+  margin-top: 50px;
+  background-color: bisque;
+  height: 300px;
+  width: 300px;
+  font-size: 15px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 8px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: larger;
+  align-self: center;
+  font-weight: 700;
+}
+
+.read-btn {
+  background: rgb(65, 158, 65);
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  width: 300px;
+  transition-duration: 0.4s;
+  font-size: 20px;
+}
+
+.unread-btn {
+  background: red;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  color: white;
+}
+
+.delete-btn {
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
